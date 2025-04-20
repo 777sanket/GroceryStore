@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Fresh Mart",
+    "location": "MG Road"
+  },
+  {
+    "name": "Organic Hub",
+    "location": "Indiranagar"
+  },
+  {
+    "name": "Local Greens",
+    "location": "Koramangala"
+  },
+
+  {
+    "name": "Healthy Basket",
+    "location": "Whitefield"
+  },
+  {
+    "name": "Green Valley",
+    "location": "HSR Layout"
+  },
+  {
+    "name": "Pure Produce",
+    "location": "Malleshwaram"
+  }
+]
