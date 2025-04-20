@@ -3,7 +3,7 @@
     "name": "Apple",
     "price": 150,
     "storeId": {
-      "$oid": "6804bcff30741da5d58fc70b"
+      "$oid": "6804f4320d4ce842c0eabb24"
     },
     "quantity": 50
   },
@@ -11,7 +11,7 @@
     "name": "Banana",
     "price": 50,
     "storeId": {
-      "$oid": "6804bcff30741da5d58fc70b"
+      "$oid": "6804f4320d4ce842c0eabb24"
     },
     "quantity": 100
   },
@@ -19,7 +19,7 @@
     "name": "Carrot",
     "price": 60,
     "storeId": {
-      "$oid": "6804bcff30741da5d58fc70b"
+      "$oid": "6804f4320d4ce842c0eabb24"
     },
     "quantity": 75
   },
@@ -27,7 +27,7 @@
     "name": "Spinach",
     "price": 40,
     "storeId": {
-      "$oid": "6804bcff30741da5d58fc70b"
+      "$oid": "6804f4320d4ce842c0eabb24"
     },
     "quantity": 30
   },
@@ -35,7 +35,7 @@
     "name": "Orange",
     "price": 120,
     "storeId": {
-      "$oid": "6804bcff30741da5d58fc70c"
+      "$oid": "6804f4320d4ce842c0eabb25"
     },
     "quantity": 45
   },
@@ -43,7 +43,7 @@
     "name": "Grapes",
     "price": 180,
     "storeId": {
-      "$oid": "6804bcff30741da5d58fc70c"
+      "$oid": "6804f4320d4ce842c0eabb25"
     },
     "quantity": 40
   },
@@ -51,7 +51,7 @@
     "name": "Tomato",
     "price": 80,
     "storeId": {
-      "$oid": "6804bcff30741da5d58fc70c"
+      "$oid": "6804f4320d4ce842c0eabb25"
     },
     "quantity": 80
   },
@@ -59,7 +59,7 @@
     "name": "Cucumber",
     "price": 45,
     "storeId": {
-      "$oid": "6804bcff30741da5d58fc70c"
+      "$oid": "6804f4320d4ce842c0eabb25"
     },
     "quantity": 60
   },
@@ -67,7 +67,7 @@
     "name": "Watermelon",
     "price": 200,
     "storeId": {
-      "$oid": "6804bcff30741da5d58fc70d"
+      "$oid": "6804f4320d4ce842c0eabb26"
     },
     "quantity": 25
   },
@@ -75,7 +75,7 @@
     "name": "Pineapple",
     "price": 190,
     "storeId": {
-      "$oid": "6804bcff30741da5d58fc70d"
+      "$oid": "6804f4320d4ce842c0eabb26"
     },
     "quantity": 30
   },
@@ -83,7 +83,7 @@
     "name": "Broccoli",
     "price": 75,
     "storeId": {
-      "$oid": "6804bcff30741da5d58fc70d"
+      "$oid": "6804f4320d4ce842c0eabb26"
     },
     "quantity": 40
   },
@@ -91,7 +91,7 @@
     "name": "Cauliflower",
     "price": 70,
     "storeId": {
-      "$oid": "6804bcff30741da5d58fc70d"
+      "$oid": "6804f4320d4ce842c0eabb26"
     },
     "quantity": 35
   },
@@ -99,7 +99,7 @@
     "name": "Strawberry",
     "price": 220,
     "storeId": {
-      "$oid": "6804bcff30741da5d58fc70e"
+      "$oid": "6804f4320d4ce842c0eabb27"
     },
     "quantity": 40
   },
@@ -107,7 +107,7 @@
     "name": "Blueberry",
     "price": 250,
     "storeId": {
-      "$oid": "6804bcff30741da5d58fc70e"
+      "$oid": "6804f4320d4ce842c0eabb27"
     },
     "quantity": 35
   },
@@ -115,7 +115,7 @@
     "name": "Potato",
     "price": 30,
     "storeId": {
-      "$oid": "6804bcff30741da5d58fc70e"
+      "$oid": "6804f4320d4ce842c0eabb27"
     },
     "quantity": 120
   },
@@ -123,7 +123,7 @@
     "name": "Bell Pepper",
     "price": 90,
     "storeId": {
-      "$oid": "6804bcff30741da5d58fc70e"
+      "$oid": "6804f4320d4ce842c0eabb27"
     },
     "quantity": 60
   },
@@ -131,7 +131,7 @@
     "name": "Mango",
     "price": 170,
     "storeId": {
-      "$oid": "6804bcff30741da5d58fc70f"
+      "$oid": "6804f4320d4ce842c0eabb28"
     },
     "quantity": 55
   },
@@ -139,7 +139,7 @@
     "name": "Kiwi",
     "price": 130,
     "storeId": {
-      "$oid": "6804bcff30741da5d58fc70f"
+      "$oid": "6804f4320d4ce842c0eabb28"
     },
     "quantity": 45
   },
@@ -147,7 +147,7 @@
     "name": "Onion",
     "price": 40,
     "storeId": {
-      "$oid": "6804bcff30741da5d58fc70f"
+      "$oid": "6804f4320d4ce842c0eabb28"
     },
     "quantity": 90
   },
@@ -155,7 +155,7 @@
     "name": "Cabbage",
     "price": 55,
     "storeId": {
-      "$oid": "6804bcff30741da5d58fc70f"
+      "$oid": "6804f4320d4ce842c0eabb28"
     },
     "quantity": 40
   },
@@ -163,7 +163,7 @@
     "name": "Pomegranate",
     "price": 190,
     "storeId": {
-      "$oid": "6804bcff30741da5d58fc710"
+      "$oid": "6804f4320d4ce842c0eabb29"
     },
     "quantity": 30
   },
@@ -171,7 +171,7 @@
     "name": "Papaya",
     "price": 160,
     "storeId": {
-      "$oid": "6804bcff30741da5d58fc710"
+      "$oid": "6804f4320d4ce842c0eabb29"
     },
     "quantity": 25
   },
@@ -179,7 +179,7 @@
     "name": "Eggplant",
     "price": 65,
     "storeId": {
-      "$oid": "6804bcff30741da5d58fc710"
+      "$oid": "6804f4320d4ce842c0eabb29"
     },
     "quantity": 50
   },
@@ -187,7 +187,7 @@
     "name": "Zucchini",
     "price": 70,
     "storeId": {
-      "$oid": "6804bcff30741da5d58fc710"
+      "$oid": "6804f4320d4ce842c0eabb29"
     },
     "quantity": 45
   }
