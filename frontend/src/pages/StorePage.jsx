@@ -39,13 +39,15 @@ const StorePage = () => {
       try {
         setLoading(true);
         const storeResponse = await axios.get(
-          `http://localhost:5001/api/stores/${id}`,
+          // `http://localhost:5001/api/stores/${id}`,
+          `https://grocerystore-dy82.onrender.com/api/stores/${id}`,
           { signal: controller.signal }
         );
         setStore(storeResponse.data);
 
         const productsResponse = await axios.get(
-          `http://localhost:5001/api/products/store/${id}`,
+          // `http://localhost:5001/api/products/store/${id}`,
+          `https://grocerystore-dy82.onrender.com/api/products/store/${id}`,
           { signal: controller.signal }
         );
         setProducts(productsResponse.data);

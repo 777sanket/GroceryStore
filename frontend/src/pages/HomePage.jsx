@@ -11,7 +11,10 @@ const HomePage = () => {
     const fetchStores = async () => {
       try {
         setLoading(true);
-        const response = await axios.get("http://localhost:5001/api/stores");
+        // const response = await axios.get("http://localhost:5001/api/stores");
+        const response = await axios.get(
+          "https://grocerystore-dy82.onrender.com/api/stores"
+        );
         console.log(response.data);
         setStores(response.data);
         setLoading(false);

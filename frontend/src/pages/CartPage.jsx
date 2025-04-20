@@ -20,7 +20,8 @@ const CartPage = () => {
       if (storeId) {
         try {
           const response = await axios.get(
-            `http://localhost:5001/api/stores/${storeId}`
+            // `http://localhost:5001/api/stores/${storeId}`
+            `https://grocerystore-dy82.onrender.com/api/stores/${storeId}`
           );
           setStoreInfo(response.data);
         } catch (err) {
@@ -40,7 +41,8 @@ const CartPage = () => {
         for (const item of items) {
           try {
             const response = await axios.get(
-              `http://localhost:5001/api/products/${item.id}`
+              // `http://localhost:5001/api/products/${item.id}`
+              `https://grocerystore-dy82.onrender.com/api/products/${item.id}`
             );
             const availableQuantity = response.data.quantity;
 
@@ -100,21 +102,27 @@ const CartPage = () => {
       };
 
       const response = await axios.post(
-        "http://localhost:5001/api/orders",
+        // "http://localhost:5001/api/orders",
+        "https://grocerystore-dy82.onrender.com/api/orders",
         orderData
       );
 
       for (const item of items) {
         try {
           const productResponse = await axios.get(
-            `http://localhost:5001/api/products/${item.id}`
+            // `http://localhost:5001/api/products/${item.id}`
+            `https://grocerystore-dy82.onrender.com/api/products/${item.id}`
           );
           const currentProduct = productResponse.data;
 
-          await axios.put(`http://localhost:5001/api/products/${item.id}`, {
-            ...currentProduct,
-            quantity: currentProduct.quantity - item.quantity,
-          });
+          // await axios.put(`http://localhost:5001/api/products/${item.id}`, {
+          await axios.put(
+            `https://grocerystore-dy82.onrender.com/api/products/${item.id}`,
+            {
+              ...currentProduct,
+              quantity: currentProduct.quantity - item.quantity,
+            }
+          );
         } catch (err) {
           console.error(`Error updating product ${item.id} quantity:`, err);
         }

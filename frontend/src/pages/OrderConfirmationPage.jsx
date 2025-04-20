@@ -1,53 +1,3 @@
-// import React, { useState, useEffect } from "react";
-// import { useParams, Navigate } from "react-router-dom";
-// import axios from "axios";
-// import OrderConfirmation from "../components/OrderConfirmation";
-
-// const OrderConfirmationPage = () => {
-//   const { id } = useParams();
-//   const [order, setOrder] = useState(null);
-//   const [loading, setLoading] = useState(true);
-//   const [error, setError] = useState(null);
-
-//   useEffect(() => {
-//     const fetchOrder = async () => {
-//       try {
-//         setLoading(true);
-//         const response = await axios.get(
-//           `http://localhost:5001/api/orders/${id}`
-//         );
-//         setOrder(response.data);
-//         setLoading(false);
-//       } catch (err) {
-//         setError(err.message);
-//         setLoading(false);
-//       }
-//     };
-
-//     fetchOrder();
-//   }, [id]);
-
-//   if (loading) {
-//     return (
-//       <div className="flex justify-center items-center h-64">
-//         <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-green-500"></div>
-//       </div>
-//     );
-//   }
-
-//   if (error) {
-//     return <Navigate to="/" />;
-//   }
-
-//   return (
-//     <div>
-//       <OrderConfirmation order={order} />
-//     </div>
-//   );
-// };
-
-// export default OrderConfirmationPage;
-
 import React, { useState, useEffect } from "react";
 import { useParams, Link, Navigate } from "react-router-dom";
 import axios from "axios";
@@ -67,7 +17,8 @@ const OrderConfirmationPage = () => {
       try {
         setLoading(true);
         const response = await axios.get(
-          `http://localhost:5001/api/orders/${id}`,
+          // `http://localhost:5001/api/orders/${id}`,
+          `https://grocerystore-dy82.onrender.com/api/orders/${id}`,
           { signal: controller.signal }
         );
 
@@ -77,7 +28,8 @@ const OrderConfirmationPage = () => {
         if (response.data && response.data.storeId) {
           try {
             const storeResponse = await axios.get(
-              `http://localhost:5001/api/stores/${response.data.storeId}`,
+              // `http://localhost:5001/api/stores/${response.data.storeId}`,
+              `https://grocerystore-dy82.onrender.com/api/stores/${response.data.storeId}`,
               { signal: controller.signal }
             );
             setStore(storeResponse.data);
